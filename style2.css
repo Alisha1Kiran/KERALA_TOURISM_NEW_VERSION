@@ -1,0 +1,106 @@
+body{
+    background-color: rgb(231, 232, 228);
+}
+
+header{
+    position: absolute;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 35%
+}
+.logo{
+    height: 160px;
+    padding-top: 10px;
+}
+
+nav{
+    padding-right: 20px;
+}
+
+.nav-links{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    align-items: center;
+    text-align: center;
+    font-size: medium;
+}
+
+.nav-link a{
+    text-decoration: none;
+    color: rgb(220, 226, 232);
+}
+
+.button1{
+    height:40px;
+    width:80px;
+    background-color: transparent;
+    border-color: rgb(224, 148, 55);;
+}
+
+.carousel-title{
+    padding-bottom: 5.5rem;
+}
+
+.gallerylist{
+    height: 4.375rem;
+}
+
+.menumap{
+    height: 27rem;
+    padding-top: 30px;
+    margin-bottom: 50px;
+    margin-bottom: 20px;
+    /* background-color: rgba(84, 73, 58, 0.5); */
+}
+
+.google-map {
+    /* padding-bottom: 50%; */
+    position: relative;
+    gap: 0;
+}
+
+.google-map iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
+footer{
+    height: 6.25rem;
+}
+
+/* .touristList{
+    height: 50vh;
+} */
+
+
+@media screen and (max-width: 992px) {
+
+    .menumap{
+        height: auto;
+        padding-top: 30px;
+        /* margin-bottom: 50px;
+        margin-bottom: 20px; */
+        /* background-color: rgba(238, 237, 236, 0.5); */
+    }
+    
+    .menulist{
+        padding: 30px 70px 0px 70px;
+        height: 26.25rem;
+    }
+
+    .google-map {
+        height: 500px;
+       margin-top: 45px;
+        /* position: relative; */
+    }
+    
+    .google-map iframe {
+        width: 100%;
+        position: absolute;
+    }
+
+}
